@@ -1,0 +1,11 @@
+{
+    "token":"luogantoken",
+    "appID":"wx4478a40d181f2c25",
+    "appScrect":"47c5ef55250ea671437a292d97cc4fc1",
+    "encodingAESKey":"jzgKx1TDv3CSCkTWKACTD2Uk5vD3ms8U2g5W91342A4",
+    "apiDomain":"https://api.weixin.qq.com/",
+    "apiURL":{
+        "accessTokenApi":"%scgi-bin/token?grant_type=client_credential&appid=%s&secret=%s",
+        "createMenu":"%scgi-bin/menu/create?access_token=%s"
+    }
+}
